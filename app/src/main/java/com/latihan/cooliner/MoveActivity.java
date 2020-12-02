@@ -21,7 +21,7 @@ public class MoveActivity extends AppCompatActivity {
         rvFood.setHasFixedSize(true);
 
         list.addAll(datamakanan1.getListData());
-
+        showRecyclerCardView();
     }
 
     private void showRecyclerCardView() {
